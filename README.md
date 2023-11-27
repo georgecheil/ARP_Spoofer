@@ -47,3 +47,8 @@ Here's a breakdown of the script:
 
 8. **Note:**
    - ARP spoofing is a malicious activity and should only be performed in controlled environments for educational or authorized testing purposes. Unauthorized use of ARP spoofing is a violation of network security and privacy. Always ensure you have the necessary permissions before running such scripts.
+  
+Finally in order to forward packets we need to type the following command in the terminal
+```
+echo 1 >> /proc/sys/net/ipv4/ip_forward
+```
