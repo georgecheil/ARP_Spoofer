@@ -1,5 +1,6 @@
 # ARP_spoofer
 This Python script is an implementation of an ARP (Address Resolution Protocol) spoofing tool using the Scapy library. 
+
 ARP spoofing is a technique where an attacker sends falsified ARP (Address Resolution Protocol) messages over a local area network. 
 It associates the attacker's MAC address with the IP address of a legitimate network resource (e.g., a router or another device), redirecting traffic to the attacker.
 
